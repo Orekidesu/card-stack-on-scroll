@@ -1,0 +1,61 @@
+.card {
+  border: 2px solid #000000;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.card:nth-child(2) {
+  transform: translateY(20%);
+}
+.card:nth-child(3) {
+  transform: translateY(40%);
+}
+.card:nth-child(4) {
+  transform: translateY(60%);
+}
+
+.card:nth-child(5) {
+  transform: translateY(80%);
+}
+
+.card:nth-child(6) {
+  transform: translateY(100%);
+}
+
+.full-width {
+  width: 100%;
+}
+
+.short-section,
+.tall-section {
+  width: 100%;
+}
+
+.short-section {
+  height: 10vh;
+}
+
+.tall-section {
+  height: 80vh;
+  padding-top: 100px;
+}
+
+.spacer {
+  height: 100px;
+}
+
+.spacer-large {
+  height: 500px;
+}
+
+.card-style {
+  top: 2%;
+  width: 90%;
+  max-width: 90%;
+  min-height: 500px;
+}
+
+.icon-1 {
+  height: 40px;
+  width: 40px;
+}
