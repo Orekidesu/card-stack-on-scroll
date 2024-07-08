@@ -87,25 +87,37 @@
 
 /* Globals */
 
-.btn-circle {
-  width: 130px;
-  height: 40px;
+.circle-btn {
+  background-color: #ffffff;
+  border: #56b8e6;
+  color: #56b8e6;
+  font-weight: 500;
+  border: none;
+  width: 120px;
+  height: 30px;
   text-align: center;
   padding: 0;
   font-size: 14px;
   line-height: 1.428571429;
-  border-radius: 15px;
+  border-radius: 18px;
   /* put shadow */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition:
+    background-color 0.5s,
+    color 0.5s,
+    box-shadow 0.5s;
 }
 
-.btn-circle:hover {
-  background-color: #2f0353;
+.circle-btn:hover {
+  background-color: #56b8e6;
+  color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 
 .icon-check {
   height: 40px;
   width: 40px;
+  color: #56b8e6;
 }
 
 .icon-arrow-right {
