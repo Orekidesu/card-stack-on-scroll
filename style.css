@@ -63,13 +63,7 @@
   .spacer-large {
     height: 400px;
   }
-
-  .icon-1 {
-    height: 40px;
-    width: 40px;
-  }
 }
-
 /* Media query for mobile phones (devices with width less than 480px) */
 @media (max-width: 480px) {
   .card {
@@ -89,4 +83,32 @@
   .card:nth-child(5) {
     transform: translateY(20%);
   }
+}
+
+/* Globals */
+
+.btn-circle {
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  /* put shadow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-circle:hover {
+  background-color: #2f0353;
+}
+
+.icon-check {
+  height: 40px;
+  width: 40px;
+}
+
+.icon-arrow-right {
+  height: 20px;
+  width: 20px;
 }
